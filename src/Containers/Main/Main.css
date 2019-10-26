@@ -1,0 +1,10 @@
+.Main{
+    width: 1200px;
+    height: auto;
+    background: #fff;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 1px 30px 0 rgba(0,0,0,.4), 0 0px 0px 0 rgba(0,0,0,.2), 0 0px 0px 0px rgba(0,0,0,.3);
+    text-align: right;
+    box-sizing: border-box;
+}

@@ -1,0 +1,45 @@
+.Table{
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 30px;
+}
+
+.Table tr{
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    display: flex; 
+    position: relative;
+}
+
+.Table td, .Table th{
+    padding: 15px 5px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+    flex-basis: 20%;
+    text-transform: capitalize;
+}
+
+.Table td input {
+    width: 100%;
+    padding: 7px 0px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.deleted{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-55%);
+    font-size: 26px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.deleted:hover{
+    color: #f01f30;
+}

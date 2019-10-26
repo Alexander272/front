@@ -1,0 +1,52 @@
+.Input{
+    margin-bottom: 25px;
+    position: relative;
+    text-align: left;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.Input label{
+    color: rgba(0,0,0,0.82);
+    text-transform: capitalize;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-weight: 500;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    pointer-events: none;
+    transition: all .3s;
+    transform: translateY(-25px);
+    font-size: 12px;
+}
+
+.Input input{
+    width: 100%;
+    padding: 7px 0px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid rgba(0,0,0,0.12);
+    color: rgba(0,0,0,0.82);
+    font-weight: 500;
+    box-shadow: none;
+    transition: all .3s;
+}
+
+.Input input:focus{
+    border-bottom-color: #0169b4;
+}
+
+.Input span{
+    color: #f01f30;
+    font-size: 12px;
+    font-weight: bold;
+    /* flex-basis: 100%; */
+}
+
+.Input.inValid label{
+    color: #f01f30;
+}
